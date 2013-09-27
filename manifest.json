@@ -1,0 +1,23 @@
+{
+	"name":"Dusic",
+	"version":"0.1.0",
+	"manifest_version":2,
+	"icons":{
+		"16":"img/logo.png",
+		"48":"img/logo.png",
+		"128":"img/logo.png"
+	},
+	"description":"chrome extension for free downloading music from dancering.cn",
+    "background":{
+        "scripts":[
+            "js/base64.js",
+            "js/bg.js"
+        ]
+    },
+	"offline_enabled":false,
+	"permissions":[
+        "downloads",
+        "contextMenus",
+		"http://www.dancering.cn/"
+	]
+}
