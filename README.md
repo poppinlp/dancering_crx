@@ -1,7 +1,15 @@
-##dancering\_crx
-Dancering网站的音乐下载chrome插件
+## dancering_crx
 
-###当前版本:
+Chrome extension for download music from dancering.cn
 
-####0.1.0
-- 原型，提供解析出音乐的实际地址并一键下载的功能
+### Usage
+
+1. Install this extension from chrome web store
+2. Go to dancering.cn and find the music you want
+3. Click the right mouse button and you'll see the "use Dusic to download"
+
+[usage](https://github.com/poppinlp/dancering_crx/raw/master/img/usage.png)
+
+### History
+
+- Ver 0.1.0: init version
