@@ -1,20 +1,36 @@
 {
-	"name": "Dusic",
-	"version": "0.1.0",
 	"manifest_version": 2,
+
+	"name": "Dusic",
+    "short_name": "rqdev",
+	"description": "chrome extension for download music from dancering.cn",
+	"version": "0.1.0",
+
+    "browser_action": {
+        "default_icon": {
+            "16": "assets/ext/logo128.png",
+            "48": "assets/ext/logo128.png",
+            "128": "assets/ext/logo128.png"
+        }
+    },
 	"icons": {
 		"16": "img/logo.png",
 		"48": "img/logo.png",
 		"128": "img/logo.png"
 	},
-	"description": "chrome extension for download music from dancering.cn",
+    "offline_enabled": true,
     "background": {
         "scripts": [
             "js/base64.js",
             "js/bg.js"
         ]
     },
-	"offline_enabled": false,
+	
+    "author": "PoppinL",
+    "omnibox": {
+        "keyword": "dusic"
+    },
+
 	"permissions": [
         "downloads",
         "contextMenus",
