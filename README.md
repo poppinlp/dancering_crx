@@ -8,7 +8,7 @@ Chrome extension for download music from dancering.cn
 2. Go to dancering.cn and find the music you want
 3. Click the right mouse button and you'll see the "use Dusic to download"
 
-[usage](https://github.com/poppinlp/dancering_crx/raw/master/img/usage.png)
+![usage](https://github.com/poppinlp/dancering_crx/raw/master/img/usage.png)
 
 ### History
 
